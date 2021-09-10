@@ -4,7 +4,7 @@
 - The given task is to build the back end for an e-commerce site (starter code provided). 
 - As a manager at an internet retail company, I want a back end for my e-commerce website that uses the latest technologies, so that the company can compete with other e-commerce companies.
 
-## Employee-Tracker Targets
+## E-Commerce Back End Targets
 Given a functional Express.js API
 - When the user adds their database name, MySQL username, and MySQL password to an environment variable file
 then they are able to connect to a database using Sequelize.
@@ -14,11 +14,11 @@ then they are able to connect to a database using Sequelize.
 - When they test API POST, PUT, and DELETE routes in Insomnia Core, then they are able to successfully create, update, and delete data in my database.
 
 # E-Commerce Back End Preview 
-> Preview ![E-Commerce-Back-End] 
+> Preview ![E-Commerce-Back-End](assets/GETall.png)
+ 
 
 ## E-Commerce Back End Video Link
-- 
+- <iframe src="https://drive.google.com/file/d/10bvQAwdh5czimQevuDeZrAjuPIyX04St/preview" width="640" height="480"></iframe>
 
 ## Repository & Webpage:
 - GitHub Repository: https://github.com/mgmedrano/E-Commerce_Back_End
-- 

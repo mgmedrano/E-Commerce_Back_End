@@ -47,7 +47,7 @@ router.get('/:id', (req, res) => {
   })
     .then(dbProductData => {
       if (!dbProductData) {
-        res.status(404).json({ message: 'No product found with this id'}); 
+        res.status(404).json({ message: 'No product id found'}); 
         return; 
       }
       res.json(dbProductData);
@@ -68,7 +68,6 @@ router.post('/', (req, res) => {
       tagIds: [1, 2, 3, 4]
     }
   */
- //(req.body)???
   Product.create({
     product_name: req.body.product_name,
     price: req.body.price,
@@ -148,7 +147,7 @@ router.delete('/:id', (req, res) => {
   })
     .then(dbProductData => {
         if (!dbProductData) {
-            res.status(404).json({ message: 'No product found with this id'});
+            res.status(404).json({ message: 'No product id found'});
             return;
         }
         res.json(dbProductData);
